@@ -8,4 +8,4 @@
 
 - nextjs front-end
 - tailwindcss
-- polylang
+- multi-language
