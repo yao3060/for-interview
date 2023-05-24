@@ -1,11 +1,12 @@
-# wordpress-interview
+# WordPress interview
 
-- Make a page according the design
-- Everything is maintainable from backend
-- you can use AFC to manage custom fields
+Please make a page like [this](https://it-consultis.com/about-us/) by WordPress.
 
-## Nice to have
+1. You can use [ACF](https://www.advancedcustomfields.com/)
+1. Everything(Text, Image) should be maintainable from backend
+1. Do as much as you can.
 
-- nextjs front-end
-- tailwindcss
-- multi-language
+## Nice to Have
+
+1. With tailwindcss
+1. Responsive
