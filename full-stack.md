@@ -18,11 +18,21 @@ export type Flight = {
   airlinesNo: string;
   flightNo: string;
   isMidNightFlight: YesOrNo,
+  isConnecting: boolean
 };
+
+const flight:Flight = {
+airlinesNo: '',
+flightNo: '',
+isMidNightFlight: 'yes',
+isConnecting: false
+}
 
 const updateFlight = (key, value) => {
 
 
 }
 
+updateFlight('isMidNightFlight', "yes") // pass
+updateFlight('isConnecting', "yes")  // error
 ```
