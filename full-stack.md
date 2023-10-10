@@ -2,6 +2,8 @@
 
 ## typescript
 
+https://www.typescriptlang.org/play
+
 1. 
 ```typescript
 const ORDER_STATUS = ['pending', 'completed', 'cancelled']
