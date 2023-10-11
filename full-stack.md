@@ -110,7 +110,8 @@ A table `logs` contains  millions of data.
 | created_at  | timestamp       | NO   |     |                     |                |
 +-------------+-----------------+------+-----+---------------------+----------------+
 ```
-requirement:
+
+**requirement:**
 - write a `SQL` to get `logs`.
 - descending order
 - 50 items per page.
