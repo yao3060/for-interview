@@ -47,7 +47,7 @@ isMidNightFlight: 'yes',
 isConnecting: false
 }
 
-const updateFlight = (key, value) => {
+const updateFlight = (key:any, value:any) => {
 
 
 }
