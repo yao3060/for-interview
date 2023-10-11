@@ -1,5 +1,22 @@
 # Full stack
 
+## javascript
+
+1. how to copy a object, copy `objectA` to `objectB`
+```javascript
+const objectA = {}
+const objectB = ?
+```
+
+2. shallow compare object, return true/false.
+```javascript
+const objectA = {}
+const objectB = {}
+
+function shallow_compare(a, b) {
+}
+```
+
 ## typescript
 
 https://www.typescriptlang.org/play
