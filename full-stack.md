@@ -44,12 +44,12 @@ updateFlight('isConnecting', "yes")  // error
 
 https://onlinephp.io/
 
-1. 
+1. what's going to happen？
 ```
 var_dump(PHP_INT_MAX + 1);
 ```
 
-2. final methods
+2. can we overwrite `final methods`
 ```php
 class BaseClass {
    final public function testing() { 
@@ -92,4 +92,27 @@ function array_group($posts, $key) {
 }
 
 ```
+
+## SQL
+
+1. Pagination
+
+```
+A table `logs` contains  millions of data.
++-------------+-----------------+------+-----+---------------------+----------------+
+| Field       | Type            | Null | Key | Default             | Extra          |
++-------------+-----------------+------+-----+---------------------+----------------+
+| id          | bigint unsigned | NO   | PRI | NULL                | auto_increment |
+| type        | ENUM('add', 'update') | NO   |     | 	    	    |                |
+| action      | varchar(255)    | NO   |     |                     |                |
+| description | varchar(255)    | NO   |     |                     |                |
+| user        | bigint unsigned | NO   |     | 1                   |                |
+| created_at  | timestamp       | NO   |     |                     |                |
++-------------+-----------------+------+-----+---------------------+----------------+
+```
+requirement:
+- write a `SQL` to get `logs`.
+- descending order
+- 50 items per page.
+- [optional] filter by `type`, `user`
 
