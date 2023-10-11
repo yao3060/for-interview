@@ -134,3 +134,7 @@ A table `logs` contains  millions of data.
 - 50 items per page.
 - [optional] filter by `type`, `user`
 
+## DevOps
+- CI/CD
+- Docker
+- K8s
