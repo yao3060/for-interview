@@ -3,7 +3,7 @@
 /**
  * retrieve a value from a deeply nested array using "dot" notation
  */
-function get_deep_value($array, $path)  {
+function get_deep_value($array, $path, $default="")  {
 
 }
 
@@ -18,5 +18,6 @@ $product = [
 ];
 
 // example usage
+get_deep_value($product, 'not.exist'); // "" 
 get_deep_value($product, 'feature_image.large'); // http://example.com/images/large.jpg
 get_deep_value($product, 'feature_image.small'); // http://example.com/images/small.jpg
