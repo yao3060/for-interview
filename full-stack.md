@@ -17,6 +17,18 @@ function shallow_compare(a, b) {
 }
 ```
 
+## React
+
+Rerender
+```
+https://codesandbox.io/p/sandbox/level2-1-k4qkxx
+```
+
+Remove duplicates && Intersection
+```
+https://codesandbox.io/p/sandbox/level1-2-lktpzf?file=%2Fsrc%2Findex.ts%3A13%2C1
+```
+
 ## typescript
 
 https://www.typescriptlang.org/play
