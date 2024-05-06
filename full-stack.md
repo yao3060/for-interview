@@ -25,8 +25,27 @@ https://codesandbox.io/p/sandbox/level2-1-k4qkxx
 ```
 
 Remove duplicates && Intersection
-```
-https://codesandbox.io/p/sandbox/level1-2-lktpzf?file=%2Fsrc%2Findex.ts%3A13%2C1
+
+```javascript
+const a = [1, 2, 3, 4];
+const b = [3, 4, 5, 6];
+
+
+// array_unique
+const array_unique = function(){
+  //
+}
+
+// array_intersect
+const array_intersect = function(){
+  // 
+}
+
+// expect: 1, 2, 3, 4, 5, 6] 
+console.log( array_unique() );
+
+// expect: [3, 4] 
+console.log( array_intersect() );
 ```
 
 ## typescript
