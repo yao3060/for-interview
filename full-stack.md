@@ -92,9 +92,9 @@ $posts = [
 
 $grouped = [
    "page" => [
-   	  ["id"=> 1, "type" => 'page'], 
-      ["id"=> 3, "type" => 'page'],
-	  ["id"=> 4, "type" => 'page'], 
+		["id"=> 1, "type" => 'page'], 
+      		["id"=> 3, "type" => 'page'],
+		["id"=> 4, "type" => 'page'], 
    	],
    	"post" => [
 		["id"=> 2, "type" => 'post'],
@@ -102,7 +102,7 @@ $grouped = [
    	]
 ];
 
-// complete this function, make it return `$grouped`
+// complete this function, make it return as `$grouped`
 function array_group($posts, $key) {
 
   return ;
