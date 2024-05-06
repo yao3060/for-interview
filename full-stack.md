@@ -34,17 +34,17 @@ type OrderStatus =
 ```typescript
 type YesOrNo = 'yes' | 'no'
 export type Flight = {
-  airlinesNo: string;
-  flightNo: string;
-  isMidNightFlight: YesOrNo,
-  isConnecting: boolean
+	airlinesNo: string;
+	flightNo: string;
+	isMidNightFlight: YesOrNo,
+	isConnecting: boolean
 };
 
 const flight:Flight = {
-airlinesNo: '',
-flightNo: '',
-isMidNightFlight: 'yes',
-isConnecting: false
+	airlinesNo: '',
+	flightNo: '',
+	isMidNightFlight: 'yes',
+	isConnecting: false
 }
 
 const updateFlight = (key:any, value:any) => {
