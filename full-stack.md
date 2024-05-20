@@ -129,7 +129,7 @@ $posts = [
  * $grouped = [
  * 	"page" => [
  * 		["id"=> 1, "type" => 'page'], 
- *       		["id"=> 3, "type" => 'page'],
+ *       	["id"=> 3, "type" => 'page'],
  * 		["id"=> 4, "type" => 'page'], 
  *    	],
  *    	"post" => [
