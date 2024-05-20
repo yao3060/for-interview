@@ -42,10 +42,10 @@ const array_intersect = function(){
 }
 
 // expect: 1, 2, 3, 4, 5, 6] 
-console.log( array_unique() );
+console.log( array_unique(a, b) );
 
 // expect: [3, 4] 
-console.log( array_intersect() );
+console.log( array_intersect(a, b) );
 ```
 
 ## typescript
@@ -64,18 +64,18 @@ type OrderStatus =
 2. 
 ```typescript
 type YesOrNo = 'yes' | 'no'
-export type Flight = {
-	airlinesNo: string;
-	flightNo: string;
+type Flight = {
+	airline: string;
+	number: string;
 	isMidNightFlight: YesOrNo,
-	isConnecting: boolean
+	stopover: boolean
 };
 
 const flight:Flight = {
-	airlinesNo: '',
-	flightNo: '',
+	airline: '',
+	number: '',
 	isMidNightFlight: 'yes',
-	isConnecting: false
+	stopover: false
 }
 
 const updateFlight = (key:any, value:any) => {
@@ -84,7 +84,7 @@ const updateFlight = (key:any, value:any) => {
 }
 
 updateFlight('isMidNightFlight', "yes") // pass
-updateFlight('isConnecting', "yes")  // error
+updateFlight('stopover', "yes")  // error
 ```
 
 
@@ -121,19 +121,23 @@ $posts = [
   ["id"=> 5, "type" => 'post'],
 ];
 
-$grouped = [
-	"page" => [
-		["id"=> 1, "type" => 'page'], 
-      		["id"=> 3, "type" => 'page'],
-		["id"=> 4, "type" => 'page'], 
-   	],
-   	"post" => [
-		["id"=> 2, "type" => 'post'],
-   		["id"=> 5, "type" => 'post'],
-   	]
-];
 
-// complete this function, make it return as `$grouped`
+
+/**
+ * Complete this function, and expect it to return `$grouped`
+ * 
+ * $grouped = [
+ * 	"page" => [
+ * 		["id"=> 1, "type" => 'page'], 
+ *       		["id"=> 3, "type" => 'page'],
+ * 		["id"=> 4, "type" => 'page'], 
+ *    	],
+ *    	"post" => [
+ * 		["id"=> 2, "type" => 'post'],
+ *    		["id"=> 5, "type" => 'post'],
+ *    	]
+ * ];
+ */
 function array_group($posts, $key) {
 
   return ;
