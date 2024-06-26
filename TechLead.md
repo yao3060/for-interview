@@ -8,9 +8,9 @@
 
 ## Backend
 
-- PHP8
+- PHP
 - WordPress / Drupal
-- Laravel
+- Laravel / Design Patterns
 - MySQL
 - PHPUnit
 
