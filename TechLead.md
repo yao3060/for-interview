@@ -10,8 +10,8 @@
 
 - PHP
 - WordPress / Drupal
-- Laravel / Design Patterns
-- MySQL
+- Laravel / Design Patterns / Facades / Pipeline
+- MySQL / Redis / Queue
 - PHPUnit
 
 ## DevOps
