@@ -87,6 +87,18 @@ updateFlight('isMidNightFlight', "yes") // pass
 updateFlight('stopover', "yes")  // error
 ```
 
+answer
+
+```ts
+type FlightKey = keyof Flight
+const updateFlight = <K extends FlightKey>(key: K, value: Flight[K]) => {
+}
+
+updateFlight('isMidNightFlight', "yes") // pass
+updateFlight('stopover', false)  // error
+
+```
+
 
 ## PHP
 
