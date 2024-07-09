@@ -61,6 +61,15 @@ type OrderStatus =
 
 ```
 
+answer
+```ts
+const ORDER_STATUS = ['pending', 'completed', 'cancelled'] as const
+
+// type Orderstatus = 'pending' | 'completed' | 'cancelled'
+type OrderStatus = (typeof ORDER_STATUS)[number]
+
+```
+
 2. 
 ```typescript
 type YesOrNo = 'yes' | 'no'
