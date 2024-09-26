@@ -7,6 +7,8 @@ Add JWT authentication for Laravel
 > You can use PHP package(`firebase/php-jwt`) for JWT generation and validation.
 >
 > Push your code to your GitHub, and share us your repository address.
+>
+> A handle over documents to help us quickly and easily understand your job. you can put it in  `README.md` file in the project root folder.
 
 
 ## Goal
