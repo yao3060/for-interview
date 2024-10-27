@@ -11,14 +11,14 @@ function array_get($array, $path, $default="")  {
 $product = [
 	"id" => 1,
 	"title" => "iPhone 16",
-	"price" => {
+	"price" => [
 		"default" => 5999,
 		"pro" => 6999,
 		"pro_max" => [
 			"_256" => 7999,
 			"_512" => 8999
 		]
-	},
+	]
 ];
 
 // example usage
