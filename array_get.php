@@ -24,6 +24,6 @@ $product = [
 ];
 
 // example usage
-array_get($product, 'not.exist'); // expect "" 
-array_get($product, 'price.pro'); // expect: 6999
-array_get($product, 'price.pro_max._512'); // expect: 8999 
+echo array_get($product, 'not.exist'); // expect "" 
+echo array_get($product, 'price.pro'); // expect: 6999
+echo array_get($product, 'price.pro_max._512'); // expect: 8999 
